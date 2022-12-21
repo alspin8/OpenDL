@@ -4,19 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6695d201-ece3-4879-80aa-68b9d5cf3431" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/fr/alspin/opendl/Data.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/fr/alspin/opendl/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/fr/alspin/opendl/NeuralNetwork.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/fr/alspin/opendl/math/Function.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/fr/alspin/opendl/math/Matrix.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/fr/alspin/opendl/util/TriConsumer.java" afterDir="false" />
+    <list default="true" id="6695d201-ece3-4879-80aa-68b9d5cf3431" name="Changes" comment="Initial commit">
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,6 +64,18 @@
       <option name="presentableId" value="Default" />
       <updated>1671194366317</updated>
     </task>
+    <task id="LOCAL-00001" summary="Initial commit">
+      <created>1671618609799</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1671618609799</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Initial commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Initial commit" />
   </component>
 </project>
