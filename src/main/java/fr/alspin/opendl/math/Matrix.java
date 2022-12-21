@@ -123,10 +123,10 @@ public class Matrix implements Serializable {
         return n;
     }
 
-    private static boolean checkDimension(Matrix a, Matrix b, String mode) {
+    private static boolean checkDimension(Matrix a, Matrix b, @NotNull String mode) {
         return switch (mode) {
             case "same" -> Arrays.equals(a.shape(), b.shape());
-            case "mul" -> a.n == b.m;
+            case "dot" -> a.n == b.m;
             default -> false;
         };
     }
@@ -257,7 +257,7 @@ public class Matrix implements Serializable {
     }
 
     public Matrix dot(Matrix m) {
-        if(!checkDimension(this, m, "mul"))
+        if(!checkDimension(this, m, "dot"))
             throw new RuntimeException("Matrix A must have N equals to M of matrix B.");
         Matrix result = Matrix.zero(this.m, m.n);
         double[] row;

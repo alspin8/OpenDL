@@ -4,19 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6695d201-ece3-4879-80aa-68b9d5cf3431" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/fr/alspin/opendl/Data.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/fr/alspin/opendl/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/fr/alspin/opendl/NeuralNetwork.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/fr/alspin/opendl/math/Function.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/fr/alspin/opendl/math/Matrix.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/fr/alspin/opendl/util/TriConsumer.java" afterDir="false" />
+    <list default="true" id="6695d201-ece3-4879-80aa-68b9d5cf3431" name="Changes" comment="Remove unused dependencies">
+      <change afterPath="$PROJECT_DIR$/src/main/java/fr/alspin/opendl/util/ProgressBarWrapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/testset.hdf5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/trainset.hdf5" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/alspin/opendl/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/alspin/opendl/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/alspin/opendl/NeuralNetwork.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/alspin/opendl/NeuralNetwork.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/alspin/opendl/math/Matrix.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/alspin/opendl/math/Matrix.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,12 +22,17 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Record" />
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="1.0" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -66,6 +66,11 @@
     &quot;project.structure.side.proportion&quot;: &quot;0.41306347&quot;
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -75,6 +80,33 @@
       <option name="presentableId" value="Default" />
       <updated>1671194366317</updated>
     </task>
+    <task id="LOCAL-00001" summary="Initial commit">
+      <created>1671618609799</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1671618609799</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Initial commit">
+      <created>1671618670949</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1671618670949</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Remove unused dependencies">
+      <created>1671618842171</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1671618842171</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Initial commit" />
+    <MESSAGE value="Remove unused dependencies" />
+    <option name="LAST_COMMIT_MESSAGE" value="Remove unused dependencies" />
   </component>
 </project>
